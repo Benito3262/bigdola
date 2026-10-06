@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BIGDOLA · Content Writer · SMM · Growth</title>
+<meta name="description" content="Dolaaaa (@bigdolaaaa). Creative writer, SMM, and content growth strategist. KOL at Quip. Open for paid partnerships." />
+<meta property="og:title" content="BIGDOLA · Content Writer" />
+<meta property="og:description" content="Creative writer, SMM, and growth strategist. KOL @quipgg. 266 Quip signups. Open for paid work." />
+<meta property="og:image" content="https://pbs.twimg.com/profile_images/2104242588312023040/BrG6IpSM.jpg" />
+<style>
+  :root {
+    --bg: #fff5f8; --card: #ffffff; --card2: #ffe8f0; --line: #f3d0dc;
+    --gold: #e23d78; --gold2: #b4235c; --gold-dim: rgba(226,61,120,.1);
+    --text: #241018; --mute: #6d4b58; --soft: #9a7483;
+  }
+  [data-theme="dark"] {
+    --bg: #12080d; --card: #1b0e14; --card2: #26131c; --line: #3a2030;
+    --gold: #ff7aaa; --gold2: #ff4d8d; --gold-dim: rgba(255,122,170,.12);
+    --text: #fff5f8; --mute: #d7b0c0; --soft: #a07d8c;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.55;
+  }
+  body:before {
+    content: ""; position: fixed; inset: 0; pointer-events: none;
+    background-image:
+      linear-gradient(rgba(226,61,120,.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(226,61,120,.05) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+  .wrap { width: min(1080px, calc(100% - 36px)); margin: 0 auto; position: relative; }
+  a { color: inherit; text-decoration: none; }
+  img { display: block; max-width: 100%; }
+  header {
+    position: sticky; top: 0; z-index: 20;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(14px); border-bottom: 1px solid var(--line);
+  }
+  .nav { display: flex; align-items: center; justify-content: space-between; padding: 14px 0; gap: 12px; }
+  .logo { letter-spacing: .22em; font-size: 12px; color: var(--gold); font-weight: 700; }
+  nav { display: flex; gap: 18px; align-items: center; font-size: 13px; color: var(--mute); }
+  nav a:hover { color: var(--text); }
+  .tog {
+    border: 1px solid var(--line); background: transparent; color: var(--mute);
+    border-radius: 999px; padding: 6px 12px; font-size: 11px; letter-spacing: .08em;
+    text-transform: uppercase; cursor: pointer;
+  }
+  .hero {
+    display: grid; grid-template-columns: 1.15fr .85fr; gap: 48px;
+    align-items: center; padding: 72px 0 56px;
+  }
+  .avail {
+    display: inline-flex; align-items: center; gap: 8px;
+    color: var(--gold); font-size: 12px; letter-spacing: .16em; text-transform: uppercase;
+    margin-bottom: 18px; font-weight: 700;
+  }
+  .avail i {
+    width: 7px; height: 7px; border-radius: 50%; background: var(--gold);
+    box-shadow: 0 0 0 0 rgba(226,61,120,.55); animation: pulse 1.7s infinite;
+  }
+  @keyframes pulse { 70% { box-shadow: 0 0 0 8px transparent; } }
+  h1 {
+    font-size: clamp(56px, 10vw, 96px); font-weight: 800; letter-spacing: -0.05em;
+    line-height: .88; margin-bottom: 14px;
+  }
+  .sub { color: var(--mute); margin-bottom: 22px; font-size: 16px; }
+  .sub b { color: var(--gold); font-weight: 600; }
+  .obj {
+    max-width: 520px; border-left: 3px solid var(--gold);
+    background: var(--gold-dim); padding: 16px 18px; border-radius: 0 12px 12px 0;
+  }
+  .obj small {
+    display: block; color: var(--gold); letter-spacing: .14em; font-size: 11px;
+    text-transform: uppercase; margin-bottom: 6px; font-weight: 700;
+  }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    border-radius: 999px; padding: 11px 18px; font-size: 14px; font-weight: 600;
+    border: 1px solid transparent;
+  }
+  .fill { background: var(--gold); color: #fff; }
+  .ghost { border-color: var(--line); color: var(--text); background: var(--card); }
+  .portrait {
+    background: var(--card); border: 1px solid var(--line); border-radius: 28px;
+    padding: 14px; box-shadow: 0 20px 50px rgba(226,61,120,.08);
+  }
+  .portrait img { width: 100%; border-radius: 20px; aspect-ratio: 1; object-fit: cover; background: #f3a8c4; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+  .chip {
+    font-size: 12px; color: var(--gold2); background: var(--gold-dim);
+    border: 1px solid var(--line); border-radius: 999px; padding: 6px 10px; font-weight: 600;
+  }
+  section { padding: 28px 0 10px; }
+  .kicker { color: var(--gold); letter-spacing: .14em; font-size: 12px; font-weight: 700; margin-bottom: 8px; }
+  h2 { font-size: clamp(28px, 4vw, 40px); letter-spacing: -0.04em; margin-bottom: 12px; }
+  .lead { color: var(--mute); max-width: 680px; margin-bottom: 22px; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .stat, .card, .work {
+    background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 18px;
+  }
+  .stat strong { display: block; font-size: 28px; letter-spacing: -0.04em; }
+  .stat span { color: var(--mute); font-size: 13px; }
+  .grid3, .grid2 { display: grid; gap: 12px; }
+  .grid3 { grid-template-columns: repeat(3, 1fr); }
+  .grid2 { grid-template-columns: 1fr 1fr; }
+  .num { color: var(--gold); font-size: 12px; letter-spacing: .14em; font-weight: 700; }
+  .card h3, .work h3 { margin: 8px 0; font-size: 18px; letter-spacing: -0.03em; }
+  .card p, .work p { color: var(--mute); font-size: 14px; }
+  .work a { color: var(--gold2); font-weight: 600; font-size: 13px; display: inline-block; margin-top: 12px; }
+  .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tags span {
+    font-size: 11px; letter-spacing: .06em; text-transform: uppercase;
+    border: 1px solid var(--line); border-radius: 999px; padding: 4px 8px; color: var(--gold2); font-weight: 700;
+  }
+  .quote {
+    margin: 28px 0 10px; padding: 22px; border-radius: 18px;
+    background: var(--card2); border: 1px solid var(--line);
+    font-size: 18px; letter-spacing: -0.02em;
+  }
+  .quote small { display: block; margin-top: 10px; color: var(--mute); font-size: 13px; }
+  .hire { text-align: center; padding: 48px 0 70px; }
+  footer {
+    border-top: 1px solid var(--line); color: var(--soft); font-size: 13px;
+    display: flex; justify-content: space-between; gap: 12px; padding: 18px 0 28px;
+  }
+  @media (max-width: 800px) {
+    .hero, .grid3, .grid2, .stats { grid-template-columns: 1fr; }
+    nav a { display: none; }
+    h1 { font-size: 64px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="#top">BIGDOLA</a>
+    <nav>
+      <a href="#now">Now</a>
+      <a href="#offer">Offer</a>
+      <a href="#work">Work</a>
+      <a href="#hire">Hire</a>
+      <button class="tog" id="theme" type="button">Dark</button>
+    </nav>
+  </div>
+</header>
+<main class="wrap" id="top">
+  <section class="hero">
+    <div>
+      <p class="avail"><i></i> Open for paid partnerships</p>
+      <h1>Dolaaaa.</h1>
+      <p class="sub">Content writer <b>•</b> SMM <b>•</b> Growth strategist</p>
+      <div class="obj">
+        <small>// objective_</small>
+        Creative writer who turns a product into a post people finish, then a reason to join.
+      </div>
+      <div class="row">
+        <a class="btn fill" href="https://x.com/bigdolaaaa" target="_blank" rel="noopener">DM on X</a>
+        <a class="btn ghost" href="https://t.me/bigdolaaaa" target="_blank" rel="noopener">Telegram</a>
+        <a class="btn ghost" href="https://play.quip.gg/?ref=28PDSE59" target="_blank" rel="noopener">Quip ref</a>
+      </div>
+    </div>
+    <div class="portrait">
+      <img src="https://pbs.twimg.com/profile_images/2104242588312023040/BrG6IpSM.jpg" alt="Dolaaaa" />
+      <div class="chips">
+        <span class="chip">@bigdolaaaa</span>
+        <span class="chip">KOL @quipgg</span>
+        <span class="chip">Steward @UtribeOne</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="kicker">// about_</p>
+    <h2>Who I am</h2>
+    <p class="lead">I’m Dolaaaa. Creative writer, social media manager, and content / growth strategist. I write the public story, stay in the replies, and move people into the product, Discord, or Telegram.</p>
+    <p class="lead">Open for content writing, human virtual assistant work, brand ambassadorship, and marketing collabs. Paid partnerships are open.</p>
+    <div class="stats">
+      <div class="stat"><strong>10.5K</strong><span>X followers</span></div>
+      <div class="stat"><strong>266</strong><span>Quip signups</span></div>
+      <div class="stat"><strong>8,164</strong><span>Lucky45 members</span></div>
+      <div class="stat"><strong>22.9K</strong><span>Posts on connected X</span></div>
+    </div>
+  </section>
+
+  <section id="now">
+    <p class="kicker">// now_</p>
+    <h2>What I am on right now</h2>
+    <p class="lead">Current work first. If a project lead only reads one block, this is it.</p>
+    <div class="grid2">
+      <article class="card">
+        <p class="num">KOL · QUIP</p>
+        <h3>Quip</h3>
+        <p>Skill-based games on Solana. I write the public story: play, compete, earn. Video explainers on skill versus luck, why Solana is the stack, and how $PHYS actually moves.</p>
+        <p style="margin-top:10px"><strong style="color:var(--text)">266</strong> signups on the referral. Code never expires. <a href="https://play.quip.gg/?ref=28PDSE59" target="_blank" rel="noopener" style="color:var(--gold2);font-weight:600">play.quip.gg</a></p>
+      </article>
+      <article class="card">
+        <p class="num">COMMUNITY</p>
+        <h3>Prymus + Lucky45</h3>
+        <p>Lead moderator in Prymus Discord. Roles on the profile: Mod, OG, Verified, Level 1, Level 2. Bio there: content writer and researcher. Regional mod in Lucky45 Protocol, a modular on-chain entertainment group with 8,164 members.</p>
+        <p style="margin-top:10px"><a href="https://t.me/lucky45protocol" target="_blank" rel="noopener" style="color:var(--gold2);font-weight:600">t.me/lucky45protocol →</a></p>
+      </article>
+    </div>
+  </section>
+
+  <section id="offer">
+    <p class="kicker">// what you are hiring_</p>
+    <h2>What I offer</h2>
+    <div class="grid3">
+      <article class="card">
+        <p class="num">01</p>
+        <h3>Content writing</h3>
+        <p>Threads, video scripts, and long-form explainers. Quip skill posts and the Fly.ai piece are the proof: clear, human, finished.</p>
+      </article>
+      <article class="card">
+        <p class="num">02</p>
+        <h3>SMM + growth</h3>
+        <p>Post, stay in the replies, point to the signup. 266 Quip signups from a live referral, not a one-off dump.</p>
+      </article>
+      <article class="card">
+        <p class="num">03</p>
+        <h3>Ambassador / VA</h3>
+        <p>Human virtual assistant, brand ambassador, and marketer. I use the product, write like someone who did, and hold mod rooms.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="work">
+    <p class="kicker">// selected work_</p>
+    <h2>Proof of work</h2>
+    <div class="grid2">
+      <article class="work">
+        <div class="tags"><span>Video</span><span>Quip</span></div>
+        <h3>What if skill could prove something</h3>
+        <p>Skill-based gaming world on Quip. No luck, no shortcuts. 194 likes, 2.6K views.</p>
+        <a href="https://x.com/bigdolaaaa/status/2101941401990648311" target="_blank" rel="noopener">Watch post →</a>
+      </article>
+      <article class="work">
+        <div class="tags"><span>Video</span><span>Solana</span></div>
+        <h3>Why Quip sits on Solana</h3>
+        <p>Fast transactions, low fees, gameplay people actually finish. 113 likes, 1.8K views.</p>
+        <a href="https://x.com/bigdolaaaa/status/2105222664436461860" target="_blank" rel="noopener">Watch post →</a>
+      </article>
+      <article class="work">
+        <div class="tags"><span>Long-form</span><span>Fly.ai</span></div>
+        <h3>Have you tried a fruit fly?</h3>
+        <p>Biology to computation to an onchain ecosystem. 193 likes, 26 bookmarks, 2.4K views.</p>
+        <a href="https://x.com/bigdolaaaa/status/2106603162735988937" target="_blank" rel="noopener">Read post →</a>
+      </article>
+      <article class="work">
+        <div class="tags"><span>Token</span><span>$PHYS</span></div>
+        <h3>What can you actually do with $PHYS</h3>
+        <p>Play, earn, spend, stake. Daily leaderboard, Genesis Peg, 50% discount. 145 likes.</p>
+        <a href="https://x.com/bigdolaaaa/status/2106235752988189037" target="_blank" rel="noopener">Read post →</a>
+      </article>
+      <article class="work">
+        <div class="tags"><span>Narrative</span><span>$PHYS</span></div>
+        <h3>$PHYS is not replacing the fun</h3>
+        <p>The game is the reason to stay. Rewards sit on top of skill. 140 likes, 109 replies.</p>
+        <a href="https://x.com/bigdolaaaa/status/2103560732944044368" target="_blank" rel="noopener">Read post →</a>
+      </article>
+      <article class="work">
+        <div class="tags"><span>Community</span><span>Mod</span></div>
+        <h3>Lucky45 Protocol</h3>
+        <p>Regional mod. Modular on-chain entertainment. 8,164 members in the group.</p>
+        <a href="https://t.me/lucky45protocol" target="_blank" rel="noopener">Open Telegram →</a>
+      </article>
+    </div>
+    <div class="quote">
+      “$PHYS isn’t replacing the fun. It’s giving the fun more value.”
+      <small>From the Quip piece. The product comes after the idea.</small>
+    </div>
+  </section>
+
+  <section class="hire" id="hire">
+    <p class="kicker">// let’s work_</p>
+    <h2>Open for paid partnerships</h2>
+    <p class="lead" style="margin: 0 auto 18px;">Content writing, SMM, brand ambassador, human VA, or growth. Reach me on X or Telegram.</p>
+    <div class="row" style="justify-content:center;">
+      <a class="btn fill" href="https://x.com/bigdolaaaa" target="_blank" rel="noopener">@bigdolaaaa</a>
+      <a class="btn ghost" href="https://t.me/bigdolaaaa" target="_blank" rel="noopener">t.me/bigdolaaaa</a>
+    </div>
+  </section>
+</main>
+<footer class="wrap">
+  <span>BIGDOLA</span>
+  <span>@bigdolaaaa · t.me/bigdolaaaa</span>
+</footer>
+<script>
+  const btn = document.getElementById("theme");
+  btn.onclick = () => {
+    const dark = document.body.dataset.theme === "dark";
+    document.body.dataset.theme = dark ? "" : "dark";
+    btn.textContent = dark ? "Dark" : "Light";
+  };
+</script>
+</body>
+</html>
